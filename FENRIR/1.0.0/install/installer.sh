@@ -9,11 +9,17 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docke
 sudo apt update
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
 
+sudo usermod -aG docker $USER
+newgrp docker
+
 # Configure Raspberry Pi as an access point
 sudo nmcli device wifi hotspot ssid Fenrir password Fenrir01!
 sudo nmcli connection modify Hotspot connection.autoconnect yes connection.autoconnect-priority 100
 
 # Install ORBWEAVER
+# get the files git or usb, probably usb copy
+# docker load -i images/orbweaver_image.tar
 
 
 # Configure ORBWEAVER
+# copy system_config.json into orbweaver/cfg/

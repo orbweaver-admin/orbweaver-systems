@@ -1,8 +1,0 @@
-- Raspberry Pi Ubuntu 24.04 Desktop
-    - Use the Pi imager software to flash Ubuntu 24.04 Desktop onto an SD card
-    - Launch the Raspberry Pi 5 with with the flashed SD card
-    - Configure install settings  
-        - Wifi 
-        - Username: localadmin
-        - Password: Fenrir01!
-    - Run the installer.sh

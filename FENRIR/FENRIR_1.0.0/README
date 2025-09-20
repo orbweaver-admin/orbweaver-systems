@@ -1,0 +1,13 @@
+- Instructions
+    - Build orbweaver for desired release and system architecture
+    - Copy orbweaver tar into orbweaver folder in desired orbweaver-systems folder
+    - tar -cf FENRIR_1.0.0.tar FENRIR_1.0.0
+    - Copy tar onto USB device
+
+    - Copy tar from USB to documents on desired system
+    - tar -xsvf FENRIR_1.0.0.tar
+        - chmod +x FENRIR_1.0.0/install/installer.sh
+    - ./FENRIR_1.0.0/install/installer.sh 001
+
+# Configure Hardware
+# http://10.42.0.1:8000/fenrir/web

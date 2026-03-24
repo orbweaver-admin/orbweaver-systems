@@ -67,4 +67,4 @@ echo 'dtparam=rtc=bbat_vchg=3000000' | sudo tee -a /boot/firmware/config.txt
 rm -rf FENRIR_1.0.0
 rm FENRIR_1.0.0.tar
 
-sudo docker compose --profile production-aarch64 -f fenrir/compose.yml up -d
+sudo docker compose --profile release-aarch64 -f fenrir/compose.yml up -d

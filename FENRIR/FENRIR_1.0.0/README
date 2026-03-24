@@ -1,5 +1,5 @@
 1. Build FENRIR for desired system architecture
-2. Copy FENRIR zip into fenrir folder
+2. Copy FENRIR zip into install/fenrir folder
 3. cd FENRIR && tar -cf FENRIR_1.0.0.tar FENRIR_1.0.0
 4. ssh-keygen -f '/home/localadmin/.ssh/known_hosts' -R 'fenrir.local'
 5. cd .. && scp FENRIR/FENRIR_1.0.0.tar localadmin@fenrir.local:/home/localadmin

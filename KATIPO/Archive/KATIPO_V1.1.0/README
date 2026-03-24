@@ -1,0 +1,9 @@
+Development
+
+Antennas
+    RF - Have selected stiff antenna as it appears to have well rounded performance and stiff vs flexible makes it look cooler, its receptionw as slightly lower than flexible but did observe bands that flexible did not, also lower profile.
+    GPS - Currently $800 antenna, howerver need to aquire alibaba variant for cheaper alternative
+
+Screws
+    - SBC Mounting Screws - M3 10mm (2 screws required) with M3 1mm Nylon washer
+    - Chassis Screws - M3 20mm (6 screw required) no washers

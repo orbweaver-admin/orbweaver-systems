@@ -8,5 +8,4 @@
 8. chmod +x FENRIR_1.0.0/install/installer.sh
 9. ./FENRIR_1.0.0/install/installer.sh
 10. Connect to Fenrir access point
-11. http://10.42.0.1:8000/fenrir/web
-
+11. http://10.42.0.1:8000/web
